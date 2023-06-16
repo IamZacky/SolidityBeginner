@@ -1,28 +1,41 @@
-# SolidityBeginner
+# Project Title
 
-This is an example of a simple cryptocurrency contract in the Solidity programming language. Tokens (or coins) may be issued and destroyed, and their circulation and value can be tracked in real time. All terms and conditions of the contract are detailed here.
+Simple overview of use/purpose.
 
-# Description
-The Coin Contract is a Solidity smart contract that facilitates the minting and burning of tokens. It keeps track of token holdings and circulation. The contract has built-in public variables for storing token-specific information such the Token Name, Token Abbreviation, and Total Supply. Token ownership may be tracked by a mapping of addresses to balances.
+## Description
 
-The contract has a mint function that adds an amount to the supply and sends the same amount to the "sender" address's balance. By contrast, the burn function decreases the overall supply and deducts tokens from the "sender" address's holdings. Conditionals are built into the burn function to guarantee that the "sender" address has a positive balance greater than or equal to the amount being burnt.
+An in-depth paragraph about your project and overview of use.
 
-# Introduction
-Setting Up
-Here's how to utilize the Coin Contract:
+## Getting Started
 
-Step one: get the contract's code from the Solidity file. 2. Make the necessary changes to the contract, such as revising the Token Name, Token Abbreviation, and Total Supply. 3 Use a Solidity compiler or development environment of your choosing to compile the Solidity code. 4 Use a tool which is Remix to release the built contract on the Ethereum network of your choosing.
+### Installing
 
-# Putting code to work
-Once the contract has been deployed, it may be accessed and interacted with using the supplied methods:
+* How/where to download your program
+* Any modifications needed to be made to files/folders
 
-Tokens may be created with the mint function by providing the address where they should be sent and the required value (number of tokens). The second method for eradicating tokens is to use the burn function, where the token's owner's address and the token's value (in tokens) are entered as inputs. The function will take the given amount out of the available supply and lower the "sender" address' remaining balance by the same amount.
+### Executing program
 
-# Help
-If you have any problems or queries when working with Solidity, see the relevant documentation for your compiler or development environment. Support from online Solidity developer groups or forums is also available.
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
 
-# Number of Contributors
+## Help
 
-Izaac Lachica - Mapua University
-# License
-The Izaac Lachica License governs use of this work.
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+
+Contributors names and contact info
+
+Izaac Manuelle Lachica - Mapua University  
+
+
+
+## License
+
+This project is licensed under the Izaac Manuelle Lachica License - see the LICENSE.md file for details
