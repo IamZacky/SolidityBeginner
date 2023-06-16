@@ -1,41 +1,42 @@
-# Project Title
+# Final Solidity Project 
 
-Simple overview of use/purpose.
+
+This is an illustration of a basic cryptocurrency contract written in the Solidity programming language. It enables the creation and destruction of tokens, and provides real-time tracking of their circulation and value. All the terms and conditions of the contract are described here
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The Coin Contract is a smart contract written in Solidity that facilitates the creation and destruction of tokens. It maintains a record of token ownership and circulation. The contract includes public variables to store token-specific information such as the Token Name, Token Abbreviation, and Total Supply. Token ownership can be traced using a mapping of addresses to balances.
 
-## Getting Started
+The contract features a mint function, which increases the token supply and assigns the same amount to the balance of the "sender" address. On the other hand, the burn function reduces the overall token supply and deducts tokens from the balance of the "sender" address. The burn function incorporates conditionals to ensure that the "sender" address has a positive balance equal to or greater than the amount being burned.
 
-### Installing
+The contract has a mint function that adds an amount to the supply and sends the same amount to the "sender" address's balance. By contrast, the burn function decreases the overall supply and deducts tokens from the "sender" address's holdings. Conditionals are built into the burn function to guarantee that the "sender" address has a positive balance greater than or equal to the amount being burnt.
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+## Introduction
 
-### Executing program
+### Setting Up
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+To utilize the Coin Contract, follow these steps:
+
+1. Obtain the contract's code from the Solidity file.
+2. Modify the contract as needed, including revising the Token Name, Token Abbreviation, and Total Supply.
+3. Compile the Solidity code using a Solidity compiler or development environment of your choice.
+4. Utilize a tool like Remix to deploy the compiled contract on the Ethereum network of your choosing.
+
+## Putting code to work
+
+Once the contract is deployed, it can be accessed and interacted with using the provided methods:
+
+Tokens can be created using the mint function by specifying the recipient's address and the desired value (number of tokens).
+Tokens can also be destroyed by utilizing the burn function, which requires the owner's address and the value of the tokens (in tokens) as inputs. This function deducts the specified amount from the available token supply and decreases the remaining balance of the "sender" address by the same amount.
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+If you have any problems or queries when working with Solidity, see the relevant documentation for your compiler or development environment. Support from online Solidity developer groups or forums is also available.
 
-## Authors
+Number of Contributors
 
-Contributors names and contact info
+1. Izaac Manuelle Lachica - Mapua University
 
-Izaac Manuelle Lachica - Mapua University  
+### License 
 
-
-
-## License
-
-This project is licensed under the Izaac Manuelle Lachica License - see the LICENSE.md file for details
+The Izaac Manuelle Lachica License governs use of this work. 
